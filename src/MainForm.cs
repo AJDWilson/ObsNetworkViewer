@@ -45,6 +45,7 @@ namespace ObsNetworkViewer
         public MainForm()
         {
             Text = "OBS Network Viewer";
+            Icon = Program.LoadAppIcon() ?? Icon;
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(760, 340);
             MinimumSize = new Size(520, 220);

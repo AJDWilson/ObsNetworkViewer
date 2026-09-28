@@ -104,6 +104,7 @@ namespace ObsNetworkViewer
             MaximizeBox = false;
             MinimizeBox = false;
             ShowInTaskbar = false;
+            ShowIcon = false;
             StartPosition = FormStartPosition.CenterParent;
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(380, 190);

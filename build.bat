@@ -10,6 +10,7 @@ if not exist "%CSC%" (
 )
 
 "%CSC%" /nologo /target:winexe /optimize+ /out:OBSNetworkViewer.exe ^
+    /win32icon:assets\app.ico /resource:assets\app.ico,ObsNetworkViewer.app.ico ^
     /r:System.dll /r:System.Core.dll /r:System.Drawing.dll /r:System.Windows.Forms.dll ^
     /r:System.Web.Extensions.dll /r:System.Security.dll ^
     src\*.cs
